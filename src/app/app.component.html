@@ -1,0 +1,31 @@
+<div class="container">
+  Check more example of Angular
+  <a
+    href="https://furetechnews.com/guide-to-using-and-creating-an-angular-directive/"
+    target="_blank"
+  >
+    Guide to Using and Creating an Angular Directive
+  </a>
+  on
+  <a href="https://furetechnews.com/" target="_blank"> furetechnews.com </a>
+</div>
+
+<hello name="{{ name }}"></hello>
+<section>
+  <h4>Angular *ngFor directive with index</h4>
+  <div *ngFor="let country of ['India', 'France', 'Japan']; index as i">
+    {{ i + 1 }} {{ country }}
+  </div>
+</section>
+
+<section>
+  <h4>
+    Iterate
+    <a href="https://furetechnews.com/" target="_blank"> furetechnews.com </a>
+    three times
+  </h4>
+  <div *ngFor="let site of [1, 2, 3]">
+    Site name:
+    <a href="https://furetechnews.com/" target="_blank"> furetechnews.com </a>
+  </div>
+</section>
